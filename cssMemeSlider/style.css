@@ -85,3 +85,18 @@ main{
 {
     display: block;
 }
+.container__img{
+    max-width: 50vw;
+}
+.img{
+    max-width: 100%;
+    display: none;
+    min-height: max-content;
+}
+#first:checked ~ .container__img .img1,
+#second:checked ~ .container__img .img2,
+#third:checked ~ .container__img .img3,
+#fourth:checked ~ .container__img .img4
+{
+    display: block;
+}
