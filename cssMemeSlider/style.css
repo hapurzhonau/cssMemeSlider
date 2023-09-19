@@ -13,57 +13,69 @@ li{
 }
 body{
     background: #2c252c;
-    min-height: 100vh;
 }
 main{
-    border: red solid 1vw;
-    max-width: 60vw;
+    /* border: red solid 1vw; */
     min-height: 100vh;
+    /* height: 1vw; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    margin: auto;
     background: #836e83;
 }
+
 .container{
-    border: green solid 1vw;
+    /* border: green solid 1vw; */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    /* max-height: 80%; */
+    /* max-width: 80%; */
+    width: 70vw;
+    max-height: 70vh;
+    height: fit-content;
 }
-.container__img{
-    border: solid 1vw gold;
-    display: flex;
-    width: 100%;
-    /* height: 100%; */
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.img__wrapper{
-    border: solid 1vw blue;
-    display: flex;
-    flex-direction: column;
-}
-.img{
-    border: solid 1vw brown;
+.container__inner{
+    /* border: white solid 1vw; */
     width: 100%;
     height: 100%;
+    /* height: fit-content; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.container__img{
+    /* border: solid 1vw gold; */
+    display: flex;
+    background: #2c252c;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+.img__inner{
+    /* border: solid orange 1vw; */
+    display: flex;
+    width: 400%;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+.img__wrapper{
+max-width: 100%;
+max-height: 100%;
+/* border: blue solid 0.3vw; */
+}
+.img{
+    /* border: solid 1vw brown; */
+    max-width: 100%;
+    max-height: 100%;
     display: none;
 }
 .bar{
-    border: solid 1vw black;
+    /* border: solid 1vw black; */
     display: flex;
     justify-content: space-between;
-    /* width: 90%; */
-    /* margin: 20px; */
-    /* width: calc(100% - 40px); */
+
 }
 .texts{
     display: inline-block;
-    font-size: 2em;
+    font-size: 3vw;
 }
 .text{
     display: none;
@@ -71,28 +83,26 @@ main{
 
 .buttons{
     display: flex;
-    /* gap: 6%; */
     justify-content: space-between;
-    /* width: 35%; */
+    margin-top: 0.5vw;
+
 }
 .label{
     cursor: pointer;
     display: flex;
-    width: 4vw;
-    height: 4vw;
-    margin: 1vw;
-    padding: 1vw;
+    width: 3vw;
+    height: 3vw;
+    margin: 0.2vw;
+    padding: 0.5vw;
 }
 .custom__button{
     display: flex;
     max-width: 100%;
     width: 100vw;
     max-height: 100%;
-    height: 100vh;
+    height: 100vw;
     background: #705e70;
     border-radius: 50%;
-    /* margin: 0.5em; */
-    /* cursor: pointer; */
 }
 
 .custom__button:hover{
